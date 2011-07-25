@@ -1,10 +1,8 @@
-Module  : Thread start on each read page
-Version : 1.0.0
+Module  : @TITLE@
+Version : @VERSION@
 Author  : Maurice Makaay <maurice@phorum.org>
 
-This module can be used to display the thread starting message on
-each read page. This way, the thread starting message can always be kept
-visible, while the user can browse the thread reply messages.
+@DESCRIPTION@
 
 This supports implementing a structure like often seen on blogs
 or news message sites with a comment system.
@@ -18,13 +16,13 @@ Installation instructions:
 
 - Unpack the archive;
 
-- Move the directory "thread_start_on_each_read_page" to the
+- Move the directory "@MODULE_ID@" to the
   directory "mods" within your Phorum installation;
 
 - Login as administrator in Phorum's administrative interface and
   go to the "Modules" section;
 
-- Enable the module "Thread start on each read page".
+- Enable the module "@TITLE".
 
 
 Template changes:
